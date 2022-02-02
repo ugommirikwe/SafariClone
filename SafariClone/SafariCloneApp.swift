@@ -8,7 +8,9 @@
 import SwiftUI
 
 @main
-struct WebviewAppApp: App {
+struct SafariCloneApp: App {
+    @State var activeTab = ""
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

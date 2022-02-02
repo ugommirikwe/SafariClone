@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECC7DDA427A27E680096CB9D /* WebviewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DDA327A27E680096CB9D /* WebviewAppApp.swift */; };
-		ECC7DDA627A27E680096CB9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DDA527A27E680096CB9D /* ContentView.swift */; };
-		ECC7DDA827A27E6F0096CB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC7DDA727A27E6F0096CB9D /* Assets.xcassets */; };
-		ECC7DDAB27A27E6F0096CB9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC7DDAA27A27E6F0096CB9D /* Preview Assets.xcassets */; };
+		EC26202F27A821D700AFAB62 /* BottomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26202327A821D500AFAB62 /* BottomToolbar.swift */; };
+		EC26203327A821D700AFAB62 /* SearchURLInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26202827A821D600AFAB62 /* SearchURLInputField.swift */; };
+		EC26203427A821D700AFAB62 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26202927A821D600AFAB62 /* WebView.swift */; };
+		EC79B88027AAFFAD0008F66E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79B87F27AAFFAD0008F66E /* ViewModel.swift */; };
+		EC79B88327AB3A670008F66E /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79B88227AB3A670008F66E /* Binding+Extension.swift */; };
+		EC79B88527AB3AAA0008F66E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79B88427AB3AAA0008F66E /* String+Extension.swift */; };
+		ECF0314227A90E5100997125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0314127A90E5100997125 /* ContentView.swift */; };
+		ECF0314527A90E7500997125 /* SafariCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0314427A90E7500997125 /* SafariCloneApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ECC7DDA027A27E680096CB9D /* WebviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECC7DDA327A27E680096CB9D /* WebviewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewAppApp.swift; sourceTree = "<group>"; };
-		ECC7DDA527A27E680096CB9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ECC7DDA727A27E6F0096CB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECC7DDAA27A27E6F0096CB9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC26201127A8217200AFAB62 /* SafariClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC26202227A821D500AFAB62 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC26202327A821D500AFAB62 /* BottomToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomToolbar.swift; sourceTree = "<group>"; };
+		EC26202827A821D600AFAB62 /* SearchURLInputField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchURLInputField.swift; sourceTree = "<group>"; };
+		EC26202927A821D600AFAB62 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EC79B87F27AAFFAD0008F66E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EC79B88227AB3A670008F66E /* Binding+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extension.swift"; sourceTree = "<group>"; };
+		EC79B88427AB3AAA0008F66E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		ECF0314127A90E5100997125 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECF0314427A90E7500997125 /* SafariCloneApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariCloneApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ECC7DD9D27A27E680096CB9D /* Frameworks */ = {
+		EC26200E27A8217200AFAB62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +41,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ECC7DD9727A27E680096CB9D = {
+		EC26200827A8217200AFAB62 = {
 			isa = PBXGroup;
 			children = (
-				ECC7DDA227A27E680096CB9D /* WebviewApp */,
-				ECC7DDA127A27E680096CB9D /* Products */,
+				EC26201327A8217200AFAB62 /* SafariClone */,
+				EC26201227A8217200AFAB62 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ECC7DDA127A27E680096CB9D /* Products */ = {
+		EC26201227A8217200AFAB62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECC7DDA027A27E680096CB9D /* WebviewApp.app */,
+				EC26201127A8217200AFAB62 /* SafariClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECC7DDA227A27E680096CB9D /* WebviewApp */ = {
+		EC26201327A8217200AFAB62 /* SafariClone */ = {
 			isa = PBXGroup;
 			children = (
-				ECC7DDA327A27E680096CB9D /* WebviewAppApp.swift */,
-				ECC7DDA527A27E680096CB9D /* ContentView.swift */,
-				ECC7DDA727A27E6F0096CB9D /* Assets.xcassets */,
-				ECC7DDA927A27E6F0096CB9D /* Preview Content */,
+				EC79B88127AB3A410008F66E /* Extensions */,
+				EC26202227A821D500AFAB62 /* Info.plist */,
+				ECF0314427A90E7500997125 /* SafariCloneApp.swift */,
+				ECF0314127A90E5100997125 /* ContentView.swift */,
+				EC26202327A821D500AFAB62 /* BottomToolbar.swift */,
+				EC26202827A821D600AFAB62 /* SearchURLInputField.swift */,
+				EC26202927A821D600AFAB62 /* WebView.swift */,
+				ECF0314327A90E5F00997125 /* Preview Content */,
+				EC79B87F27AAFFAD0008F66E /* ViewModel.swift */,
 			);
-			path = WebviewApp;
+			path = SafariClone;
 			sourceTree = "<group>";
 		};
-		ECC7DDA927A27E6F0096CB9D /* Preview Content */ = {
+		EC79B88127AB3A410008F66E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				ECC7DDAA27A27E6F0096CB9D /* Preview Assets.xcassets */,
+				EC79B88227AB3A670008F66E /* Binding+Extension.swift */,
+				EC79B88427AB3AAA0008F66E /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECF0314327A90E5F00997125 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +92,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECC7DD9F27A27E680096CB9D /* WebviewApp */ = {
+		EC26201027A8217200AFAB62 /* SafariClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECC7DDAE27A27E6F0096CB9D /* Build configuration list for PBXNativeTarget "WebviewApp" */;
+			buildConfigurationList = EC26201F27A8217500AFAB62 /* Build configuration list for PBXNativeTarget "SafariClone" */;
 			buildPhases = (
-				ECC7DD9C27A27E680096CB9D /* Sources */,
-				ECC7DD9D27A27E680096CB9D /* Frameworks */,
-				ECC7DD9E27A27E680096CB9D /* Resources */,
+				EC26200D27A8217200AFAB62 /* Sources */,
+				EC26200E27A8217200AFAB62 /* Frameworks */,
+				EC26200F27A8217200AFAB62 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WebviewApp;
-			productName = WebviewApp;
-			productReference = ECC7DDA027A27E680096CB9D /* WebviewApp.app */;
+			name = SafariClone;
+			productName = SafariClone;
+			productReference = EC26201127A8217200AFAB62 /* SafariClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ECC7DD9827A27E680096CB9D /* Project object */ = {
+		EC26200927A8217200AFAB62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					ECC7DD9F27A27E680096CB9D = {
+					EC26201027A8217200AFAB62 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = ECC7DD9B27A27E680096CB9D /* Build configuration list for PBXProject "WebviewApp" */;
+			buildConfigurationList = EC26200C27A8217200AFAB62 /* Build configuration list for PBXProject "SafariClone" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +132,46 @@
 				en,
 				Base,
 			);
-			mainGroup = ECC7DD9727A27E680096CB9D;
-			productRefGroup = ECC7DDA127A27E680096CB9D /* Products */;
+			mainGroup = EC26200827A8217200AFAB62;
+			productRefGroup = EC26201227A8217200AFAB62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECC7DD9F27A27E680096CB9D /* WebviewApp */,
+				EC26201027A8217200AFAB62 /* SafariClone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ECC7DD9E27A27E680096CB9D /* Resources */ = {
+		EC26200F27A8217200AFAB62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC7DDAB27A27E6F0096CB9D /* Preview Assets.xcassets in Resources */,
-				ECC7DDA827A27E6F0096CB9D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ECC7DD9C27A27E680096CB9D /* Sources */ = {
+		EC26200D27A8217200AFAB62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC7DDA627A27E680096CB9D /* ContentView.swift in Sources */,
-				ECC7DDA427A27E680096CB9D /* WebviewAppApp.swift in Sources */,
+				EC79B88527AB3AAA0008F66E /* String+Extension.swift in Sources */,
+				EC26203327A821D700AFAB62 /* SearchURLInputField.swift in Sources */,
+				EC26203427A821D700AFAB62 /* WebView.swift in Sources */,
+				ECF0314227A90E5100997125 /* ContentView.swift in Sources */,
+				EC26202F27A821D700AFAB62 /* BottomToolbar.swift in Sources */,
+				EC79B88027AAFFAD0008F66E /* ViewModel.swift in Sources */,
+				ECF0314527A90E7500997125 /* SafariCloneApp.swift in Sources */,
+				EC79B88327AB3A670008F66E /* Binding+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ECC7DDAC27A27E6F0096CB9D /* Debug */ = {
+		EC26201D27A8217500AFAB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		ECC7DDAD27A27E6F0096CB9D /* Release */ = {
+		EC26201E27A8217500AFAB62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,20 +287,21 @@
 			};
 			name = Release;
 		};
-		ECC7DDAF27A27E6F0096CB9D /* Debug */ = {
+		EC26202027A8217500AFAB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WebviewApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SafariClone/Preview Content\"";
 				DEVELOPMENT_TEAM = QYYTQ29F84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,28 +309,29 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.ugomirikwe.WebviewApp;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ugomirikwe.SafariClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		ECC7DDB027A27E6F0096CB9D /* Release */ = {
+		EC26202127A8217500AFAB62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WebviewApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SafariClone/Preview Content\"";
 				DEVELOPMENT_TEAM = QYYTQ29F84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,36 +339,36 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.ugomirikwe.WebviewApp;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ugomirikwe.SafariClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECC7DD9B27A27E680096CB9D /* Build configuration list for PBXProject "WebviewApp" */ = {
+		EC26200C27A8217200AFAB62 /* Build configuration list for PBXProject "SafariClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECC7DDAC27A27E6F0096CB9D /* Debug */,
-				ECC7DDAD27A27E6F0096CB9D /* Release */,
+				EC26201D27A8217500AFAB62 /* Debug */,
+				EC26201E27A8217500AFAB62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECC7DDAE27A27E6F0096CB9D /* Build configuration list for PBXNativeTarget "WebviewApp" */ = {
+		EC26201F27A8217500AFAB62 /* Build configuration list for PBXNativeTarget "SafariClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECC7DDAF27A27E6F0096CB9D /* Debug */,
-				ECC7DDB027A27E6F0096CB9D /* Release */,
+				EC26202027A8217500AFAB62 /* Debug */,
+				EC26202127A8217500AFAB62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ECC7DD9827A27E680096CB9D /* Project object */;
+	rootObject = EC26200927A8217200AFAB62 /* Project object */;
 }
